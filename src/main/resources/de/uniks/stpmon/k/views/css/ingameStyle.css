@@ -1,0 +1,443 @@
+.ingame {
+    -fx-font-family: "Pokémon DS Font";
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+}
+
+.ingame-small {
+    -fx-font-family: "Pokémon DS Font";
+    -fx-font-size: 15px;
+}
+
+.transparent-background {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-style: hidden;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+}
+
+
+/* -------------------- Pause Screen -------------------- */
+.pause-inner-containers {
+    -fx-background-color: transparent;
+}
+
+.pause-text {
+    -fx-font-size: 90px;
+    -fx-fill: white;
+}
+
+.pause-shortcut-text {
+    -fx-font-size: 45px;
+    -fx-fill: white;
+}
+
+/* --------------------    Timer      -------------------- */
+
+.timer-label {
+    -fx-font-family: "Pokémon DS Font";
+    -fx-font-size: 36px;
+}
+
+/* -------------------- Backpack Menu -------------------- */
+.backpack-menu {
+    -fx-padding: 13 0 0 0;
+}
+
+.backpack-menu-list .list-view {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-style: hidden;
+    -fx-hbar-policy: never;
+}
+
+
+.backpack-menu-list .list-cell {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-style: hidden;
+    -fx-hbar-policy: never;
+    -fx-text-fill: black;
+}
+
+.backpack-menu-list .list-cell .label{
+    -fx-text-fill: black;
+}
+
+
+.backpack-menu-list .list-cell:selected .label {
+    -fx-text-fill: black;
+}
+
+
+.backpack-menu-entry {
+    -fx-font-size: 20px;
+    -fx-fill: black;
+}
+
+/* -------------------- MonDex Monsters Menu -------------------- */
+
+
+/* -------------------- Team Monsters Menu -------------------- */
+
+.outstanding {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+}
+
+.team-monster-holder {
+    -fx-padding: 4 5 6 10;
+}
+
+.team-monster-entry {
+    -fx-min-height: 20;
+    -fx-min-width: 110;
+    -fx-pref-height: 20;
+    -fx-pref-width: 110;
+    -fx-max-height: 20;
+    -fx-max-width: 110;
+
+    -fx-text-alignment: center left;
+    -fx-text-overrun: ellipsis;
+}
+
+/* -------------------- Team Monster Label -------------------- */
+
+.monster-type-general {
+    -fx-border-width: 2px;
+    -fx-border-radius: 2px;
+    -fx-background-radius: 2px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 1.0, 1.0);
+
+    -fx-min-width: 65;
+    -fx-pref-width: 65;
+    -fx-max-width: 65;
+    -fx-min-height: 22;
+    -fx-pref-height: 22;
+    -fx-max-height: 22;
+
+    -fx-text-fill: white;
+
+    -fx-alignment: center;
+    
+    /*default color*/
+    -fx-background-color: grey;
+    -fx-border-color: black;
+}
+
+.monster-type-normal {
+    -fx-background-color: #A8A878;
+    -fx-border-color: #6D6D4E;
+}
+
+.monster-type-fire {
+    -fx-background-color: #F08030;
+    -fx-border-color: #9C531F;
+}
+
+.monster-type-fairy {
+    -fx-background-color: #f7bdcc;
+    -fx-border-color: #ee99ac;
+}
+
+.monster-type-water {
+    -fx-background-color: #6890F0;
+    -fx-border-color: #445E9C;
+}
+
+.monster-type-electric {
+    -fx-background-color: #F8D030;
+    -fx-border-color: #A1871F;
+}
+
+.monster-type-grass {
+    -fx-background-color: #78C850;
+    -fx-border-color: #4E8234;
+}
+
+.monster-type-ice {
+    -fx-background-color: #98D8D8;
+    -fx-border-color: #638D8D;
+}
+
+.monster-type-ground {
+    -fx-background-color: #E0C068;
+    -fx-border-color: #927D44;
+}
+
+.monster-type-flying {
+    -fx-background-color: #A890F0;
+    -fx-border-color: #6D5E9C;
+}
+
+.monster-type-ghost {
+    -fx-background-color: #705898;
+    -fx-border-color: #493963;
+}
+
+.monster-type-rock {
+    -fx-background-color: #B8A038;
+    -fx-border-color: #786824;
+}
+
+.monster-type-fighting {
+    -fx-background-color: #C03028;
+    -fx-border-color: #7D1F1A;
+}
+
+.monster-type-poison {
+    -fx-background-color: #A040A0;
+    -fx-border-color: #682A68;
+}
+
+.monster-type-psychic {
+    -fx-background-color: #F85888;
+    -fx-border-color: #A13959;
+}
+
+.monster-type-bug {
+    -fx-background-color: #A8B820;
+    -fx-border-color: #6D7815;
+}
+
+.monster-type-dark {
+    -fx-background-color: #705848;
+    -fx-border-color: #49392F;
+}
+
+.monster-type-steel {
+    -fx-background-color: #B8B8D0;
+    -fx-border-color: #787887;
+}
+
+.monster-type-dragon {
+    -fx-background-color: #7038F8;
+    -fx-border-color: #4924A1;
+}
+
+.monster-type-unkown {
+    -fx-background-color: #9e9391;
+    -fx-border-color: #2f2b2a;
+}
+
+
+/* -------------------- Monster Information -------------------- */
+.monster-information-font {
+    -fx-font-size: 18px;
+}
+
+.monster-information-name {
+    -fx-font-size: 25px;
+}
+
+.monster-information-attack-title {
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+}
+
+.monster-update-label {
+    -fx-text-fill: #445E9C;
+}
+
+/* -------------------- Dialogue  -------------------- */
+.dialog-font-size {
+    -fx-font-size: 25px;
+}
+
+.dialog-label {
+    -fx-font-family: "Pokémon DS Font";
+    -fx-font-size: 26px;
+    -fx-text-fill: black;
+}
+
+
+/* -------------------- Map Overview -------------------- */
+
+.map-overview-content {
+    -fx-font-family: "Pokémon DS Font";
+    -fx-font-size: 23px;
+    -fx-text-alignment: center;
+}
+
+.map-overview-header {
+    -fx-font-size: 50px;
+    -fx-text-fill: black;
+}
+
+.map-overview-textflow {
+    -fx-text-alignment: center;
+}
+
+.map-fast-travel-button {
+    -fx-border-width: 2px;
+    -fx-border-radius: 2px;
+    -fx-background-radius: 2px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 1.0, 1.0);
+
+    -fx-min-width: 90;
+    -fx-pref-width: 90;
+    -fx-max-width: 90;
+    -fx-min-height: 30;
+    -fx-pref-height: 30;
+    -fx-max-height: 30;
+
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-text-alignment: center;
+
+    -fx-alignment: center;
+    
+    /*default color*/
+    -fx-background-color: #2b78e4;
+    -fx-border-color: black;
+}
+
+/* -------------------- Encounter -------------------- */
+.encounter-background {
+    -fx-background-size: cover;
+}
+
+.user-monster-indented {
+    -fx-start-margin: 100px;
+}
+
+.monster-hp-bar {
+    -fx-accent: #2a7d37;
+}
+
+.monster-hp-bar .bar {
+    -fx-background-color: #2a7d37;
+    -fx-padding: 0;
+}
+
+.monster-hp-bar .track {
+    -fx-padding: 0;
+}
+
+
+/* -------------------- Monster Status -------------------- */
+
+.monster-status-background {
+ -fx-border-radius: 4;
+ -fx-background-radius: 5;
+ -fx-border-color: black;
+ -fx-border-width: 1;
+}
+
+
+.monster-status-stunned {
+ -fx-background-color: lightblue;
+}
+
+.monster-status-burned {
+ -fx-background-color: darkred;
+}
+
+.monster-status-poisoned {
+ -fx-background-color: orange;
+}
+
+.monster-status-frozen {
+ -fx-background-color: darkblue;
+}
+
+.monster-status-confused {
+ -fx-background-color: lightblue;
+}
+
+.monster-status-paralysed {
+ -fx-background-color: whitesmoke;
+}
+
+.monster-status-asleep {
+ -fx-background-color: thistle;
+}
+
+/* -------------------- Mon Box  -------------------- */
+
+.hp-progressbar {
+    -fx-border-color: black;
+    -fx-border-radius: 2px;
+    -fx-background-color: transparent;
+}
+
+.hp-progressbar .track {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.hp-progressbar .bar {
+    -fx-padding: 1px;
+    -fx-background-insets: 0;
+    -fx-background-radius: 2px;
+}
+
+.hp-progressbar-red .bar {
+    -fx-background-color: red;
+}
+
+.hp-progressbar-orange .bar {
+    -fx-background-color: orange;
+}
+
+.hp-progressbar-green .bar {
+    -fx-background-color: green;
+}
+
+/* -------------------- Shop  -------------------- */
+
+.trade-buttons {
+    -fx-pref-width: 30;
+    -fx-pref-height: 30;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+    -fx-max-width: 30;
+    -fx-max-height: 30;
+}
+
+.trade-buttons .ikonli-font-icon {
+    -fx-icon-color: white;
+    -fx-icon-size: 30px;
+}
+
+.trade-buttons:disabled .ikonli-font-icon {
+    -fx-icon-color: black;
+    -fx-icon-size: 30px;
+}
+
+.trade-item-name {
+    -fx-font-size: 25px;
+}
+.trade-text-red {
+    -fx-text-fill: red;
+}
+.trade-text-black {
+    -fx-text-fill: black;
+}
+
+.trade-list {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-style: hidden;
+    -fx-hbar-policy: never;
+}
+
+.trade-list .list-view {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-style: hidden;
+    -fx-hbar-policy: never;
+}
+
+.trade-list .list-cell {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-style: hidden;
+    -fx-alignment: center-left;
+}
